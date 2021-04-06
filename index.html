@@ -5,13 +5,14 @@
         <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     </head>
     <body>
-        <script type="text/javascript" src="treat.js"></script>
-        <form>
+        <form name="form_login">
             <h3>Tela Login</h3>
-            <input id="email" type="text" name="email" placeholder="Digite seu email..." />
+            <input id="email" type="text" name="email" placeholder="Digite seu email..." onblur="validaEmail(form_login.email)" />
+            <div id="msgemail"></div>
             <input id="password" type="password" name="senha" placeholder="Digite sua senha..." />
             <div class="butt">
                 <input type="submit" name="acao" value="Enviar" />
+                <br/>
                 <input type="image" src="./img/facebook.png" />
                 <input type="image" src="./img/instagram.png" />
             </div>
@@ -20,5 +21,6 @@
                 pela Universidade Federal de Sergipe (6º período). Utilizando HTML, CSS e JavaScript puro.
             </p>
         </form>
+        <script type="text/javascript" src="treat.js"></script>
     </body>
 </html>
