@@ -10,6 +10,7 @@
 
 #
   Tecnologias:
+  
       HTML
       CSS
       JAVASCRIPT
