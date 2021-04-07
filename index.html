@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="charset" content="utf-8" />
+        <meta name="viewport" content="width=device-width", initial-scale=1.0 />
         <title>LOGIN FORM</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery-3.6.0.min (1).js"></script>
     </head>
     <body>
-        <form name="form_login">
-            <h3>Tela Login</h3>
-            <input id="email" type="text" name="email" placeholder="Digite seu email..." onblur="validaEmail(form_login.email)" />
-            <div id="msgemail"></div>
-            <input id="password" type="password" name="senha" placeholder="Digite sua senha..." />
-            <div class="butt">
-                <input type="submit" name="acao" value="Enviar" />
-                <br/>
-                <input type="image" src="./img/facebook.png" />
-                <input type="image" src="./img/instagram.png" />
-            </div>
-            <p>
-                    Tela de Login desenvolvida por Anderson Santos, aluno de Engenharia de Computação
-                pela Universidade Federal de Sergipe (6º período). Utilizando HTML, CSS e JavaScript puro.
-            </p>
-        </form>
+        <div class="container-fluid">
+            <form name="form_login">
+                <h3 align="center">Tela Login</h3>
+                <div class="row">
+                    <div class="col-11">
+                        <input id="email" type="text" name="email" placeholder="Digite seu email..." onblur="validaEmail(form_login.email)" />
+                        <br/>
+                        <input id="password" type="password" name="senha" placeholder="Digite sua senha..." />
+                    </div>
+                    <div class="col-1">
+                        <div id="msgemail"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="butt" align="center">
+                            <input type="submit" name="acao" value="Enviar" />
+                            <br/>
+                            <input type="image" src="./img/facebook.png" />
+                            <input type="image" src="./img/instagram.png" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <p>
+                                Tela de Login desenvolvida por Anderson Santos, aluno de Engenharia de Computação
+                            pela Universidade Federal de Sergipe (6º período). Utilizando HTML, CSS, Bootstrap e JavaScript puro.
+                        </p>
+                    </div>
+                </div>
+
+            </form>
+        </div>
         <script type="text/javascript" src="treat.js"></script>
     </body>
 </html>
