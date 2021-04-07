@@ -1,14 +1,13 @@
- # ------------------------------------------------------------------------ #
+#
  Tela de Login Básica
 
  Autor:      Anderson Santos
  Manutenção: Anderson Santos
 
-# ------------------------------------------------------------------------ #
+#
   Tela de Login básica feita para inicio dos estudos de HTML, CSS e JavaScript.
   Poderá ser utilizada em qualquer tipo de sistema ou página web.
-
-# ------------------------------------------------------------------------ #
+#
  Histórico:
 
     v1.0 qui 01/04/2021, Anderson:
@@ -22,8 +21,10 @@
         - Enviado para o GitHub
         - Adicionado validação de email
 
-# ------------------------------------------------------------------------ #
+    v1.2 qua 07/04/2021, Anderson:
+        - Alterada a estilização para Bootstrap e CSS
+
+
+# 
  Desenvolvido em:
    Visual Studio Code - v1.55.0 x64
-   
-# ------------------------------------------------------------------------ #
