@@ -7,6 +7,13 @@
 #
   Tela de Login básica feita para inicio dos estudos de HTML, CSS e JavaScript.
   Poderá ser utilizada em qualquer tipo de sistema ou página web.
+
+#
+  Tecnologias:
+      HTML
+      CSS
+      JAVASCRIPT
+      BOOTSTRAP
 #
  Histórico:
 
